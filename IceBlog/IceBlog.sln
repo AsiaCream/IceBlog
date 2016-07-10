@@ -1,0 +1,33 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{BAED7C5B-0B8E-4CE0-82A7-18AABD96D20C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AD03A40C-F3D6-499A-A66D-A201DCE294D0}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		Nuget.config = Nuget.config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "IceBlog", "src\IceBlog\IceBlog.xproj", "{11598486-247F-41C9-9D08-30A9D0D3C137}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{11598486-247F-41C9-9D08-30A9D0D3C137}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11598486-247F-41C9-9D08-30A9D0D3C137}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11598486-247F-41C9-9D08-30A9D0D3C137}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11598486-247F-41C9-9D08-30A9D0D3C137}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{11598486-247F-41C9-9D08-30A9D0D3C137} = {BAED7C5B-0B8E-4CE0-82A7-18AABD96D20C}
+	EndGlobalSection
+EndGlobal

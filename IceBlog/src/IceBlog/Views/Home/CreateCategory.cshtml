@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Category>
+
+<table>
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach(var x in Model)
+        {
+            <tr>
+                <td>@x.Id</td>
+        <td>@x.Title</td>
+        </tr>
+        }
+    </tbody>
+</table>
+<form asp-action="Create" asp-controller="Home" method="post">
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    <input type="text" name="title" /><br />
+                    <input type="submit" value="提交" />
+                </th>
+            </tr>
+        </thead>
+    </table>
+</form>
